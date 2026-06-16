@@ -1,0 +1,17 @@
+[project]
+name = "dns-balancer-spec"
+version = "0.1.0"
+description = "Wunderspec model for the DNS balancer example"
+requires-python = ">=3.11"
+dependencies = [
+    "pytest>=9.1.0",
+    "pytest-codeblocks>=0.18.0",
+    "wunderspec>=0.129.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = false
